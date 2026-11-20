@@ -17,6 +17,15 @@
 .project-info p,.project-info li{line-height:1.65}
 .project-info ul{padding-left:24px}.project-info .back-link{display:inline-block;margin-top:14px}
 @media(max-width:600px){.disclaimer{padding:16px}}
+
+/* Rechtliche Navigation */
+.legal-footer{margin:28px 0 0;padding:20px 12px;border-top:1px solid #dce4ec;text-align:center;color:#526579;font-size:14px}
+.legal-footer nav{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.legal-footer a{color:#115a9e;text-decoration:underline;text-underline-offset:3px}
+.legal-footer a:focus-visible{outline:3px solid #1764b3;outline-offset:3px}
+.legal-page{max-width:850px;margin:auto}.legal-page h2{margin-top:28px}.legal-page li{line-height:1.65}
+.placeholder{background:#fff1cf;border-radius:5px;padding:2px 5px;font-weight:700}
+
 </style>
 </head>
 <body><main class="wrap"><header><span class="chip">Version 0.5 · Android-App · Klassen 9 und 10</span><h1>IGS-Abschlussrechner</h1><p class="muted">Rheinland-Pfalz · Noten und Abschlüsse prüfen</p></header>
@@ -41,6 +50,8 @@
 <p><a href="https://github.com/PatriciaStahn/igs-abschlussrechner/blob/main/README.md" target="_blank" rel="noopener noreferrer">Vollständige README auf GitHub ansehen</a> · <a href="https://github.com/PatriciaStahn/igs-abschlussrechner" target="_blank" rel="noopener noreferrer">Projekt auf GitHub</a></p>
 <a class="back-link" href="#landing">↑ Zurück nach oben</a>
 </section>
+
+<footer class="legal-footer"><nav aria-label="Rechtliche Informationen"><a href="./index.html">Abschlussrechner</a><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a><a href="./rechtliche-hinweise.html">Rechtliche Hinweise</a><a href="https://github.com/PatriciaStahn/igs-abschlussrechner" target="_blank" rel="noopener noreferrer">Quellcode</a></nav><div>Unabhängiges, experimentelles Projekt · Keine offizielle Abschlussfeststellung</div></footer>
 </main>
 <script src="abschluss.js"></script><script src="klasse9.js"></script><script>
 const defaults=[['Deutsch',true],['Mathematik',true],['Englisch',true],['Biologie',true],['Chemie',true],['Physik',true],['Gesellschaftslehre (GL)',false],['Wahlpflichtfach (WPF)',false],['Sport',false],['Bildende Kunst',false],['Musik',false],['Religion / Ethik',false]];

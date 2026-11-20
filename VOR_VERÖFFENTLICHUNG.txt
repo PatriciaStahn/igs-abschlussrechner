@@ -1,0 +1,7 @@
+Vor Veröffentlichung unbedingt erledigen:
+1. Impressum: Name, ladungsfähige Anschrift und Kontakt-E-Mail eintragen.
+2. Datenschutzhinweise: Verantwortliche/Kontaktdaten ergänzen und Hosting-Angaben prüfen.
+3. Prüfen, ob die verwendete GitHub-Pages-Konfiguration weitere Dienste oder Tracking lädt.
+4. Schulrechtliche Berechnungen fachlich testen; keine verbindlichen Ergebnisse behaupten.
+5. Alle Dateien inklusive sw.js und der drei neuen HTML-Seiten in das Repository-Hauptverzeichnis hochladen.
+6. Nach dem Deploy Offline-Version und Links testen.
