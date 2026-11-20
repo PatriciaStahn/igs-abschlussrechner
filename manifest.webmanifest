@@ -1,0 +1,25 @@
+{
+  "name": "IGS-Abschlussrechner Rheinland-Pfalz",
+  "short_name": "IGS-Rechner",
+  "description": "Abschlussprognosen für die Klassen 9 und 10 der IGS in Rheinland-Pfalz",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#1764b3",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
